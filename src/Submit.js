@@ -3,9 +3,6 @@ import { Link } from 'react-router-dom';
 import Notification from './Components/Notification';
 
 class Submit extends Component {
-    constructor(props) {
-        super(props)
-    }
 
 refreshPage() {
     window.location.reload(false);
@@ -40,7 +37,6 @@ refreshPage() {
                         </div>
                     </div>
                     ) : (
-            
                         <div className="form--fields">
                                 <div className="row name--row">
                                         <label htmlFor="namelist" className="form__label">name:</label>

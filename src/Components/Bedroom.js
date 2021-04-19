@@ -39,8 +39,7 @@ componentDidMount() {
 turnOnLights() {
     console.log("I was clicked");
     this.setState({
-        lightsOn: !this.state.lightsOn})
-      
+        lightsOn: !this.state.lightsOn})  
 }
 
 render() 

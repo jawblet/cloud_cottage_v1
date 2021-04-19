@@ -3,8 +3,6 @@ import React, { Component } from 'react';
 class Notification extends Component {
     constructor(props){
         super(props)
-
-        window.location.hash ="#entry";
         console.log(props);
     }
     render () {
