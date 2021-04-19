@@ -464,7 +464,11 @@ option:active {
     display: flex;
     flex-direction: column;
     height: 80vh;
-    justify-content: center;
+  }
+
+  .home__wrapper {
+    display: flex;
+    flex-direction: column;
   }
 
   .home {
@@ -478,18 +482,13 @@ option:active {
   .home__rules {
     padding: 1rem;
     margin: 1rem;
-    margin-bottom: 10rem;
     text-align: left;
     border: 1px solid var(--dark-green);
     border-radius: var(--rounder);
-    align-self: flex-end;
-    position: absolute;
-    top: 12%;
-    left: 5%;
     background-image: radial-gradient(var(--accent-green), transparent 40%),
                       radial-gradient(ellipse at 70% 60%, var(--accent-green), transparent 20%);
     background-position: -50px -30px;
-    cursor: default;
+    align-self: flex-start;
   }
   
   .home__rules--title, .home__rule { padding: 0.5rem 1rem; }
